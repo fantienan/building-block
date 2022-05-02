@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "types": ["jest"],
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "baseUrl": "./",
+    "paths": {
+      "@building-block/editor": ["packages/editor/src/index.ts"],
+      "@building-block/hooks": ["packages/editor/src/index.ts"],
+    }
+  }
+}
